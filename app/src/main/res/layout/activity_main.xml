@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C7E3"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#C4C4"
+        android:drawableLeft="@drawable/control1"
+        android:scaleType="fitCenter"
+        android:text="JUEGO"
+        android:textColor="#0F0F10"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/boton1_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Última vez: --"
+        android:textColor="#0F0F10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <TextView
+        android:id="@+id/boton1_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="47dp"
+        android:text="Veces Pulsado: --"
+        android:textColor="#0F0F10"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton1_info" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#C4C4"
+        android:drawableLeft="@drawable/planeta"
+        android:scaleType="fitCenter"
+        android:text="PAISES"
+        android:textColor="#0F0F10"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <TextView
+        android:id="@+id/boton2_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Ultima vez: --"
+        android:textColor="#0F0F10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/boton2_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Veces Pulsado: --"
+        android:textColor="#0F0F10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton2_info1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

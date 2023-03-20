@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Taller 1</string>
+    <string name="continente">Continente</string>
+    <string name="continentexd">◉ continente</string>
+    <string name="sigla">◉ Sigla:</string>
+    <string name="nombre_internacional">◉ Nombre internacional:</string>
+</resources>
